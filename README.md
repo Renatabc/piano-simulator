@@ -6,7 +6,7 @@ Projeto prático baseado no projeto "Construindo um Simulador de Piano com JavaS
 Concluído!!! 🎹🎵
 
 ## Demonstração da aplicação
-[clique aqui para jogar](https://renatabc.github.io/emoji-memory-game/)
+[clique aqui para executar a aplicação](https://renatabc.github.io/piano-simulator/)
 
 ![image](https://github.com/Renatabc/piano-simulator/assets/93830634/1595d267-49ec-4410-8946-1dd2b2406265)
 
