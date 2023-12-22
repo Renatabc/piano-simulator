@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: beige;
+}
+
+.container{
+    width: 1380px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 35px 40px;
+    background: linear-gradient(144deg, #f1e8ec 0%, #6f6c75 52%, #18191b 100%);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+.column{
+    display: flex;
+    align-items: center;
+}
+
+header .column span{
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+.volume-slider input{
+    accent-color: white;
+}
+
+.keys-check input{
+    width: 60px;
+    height: 30px;
+    appearance: none;
+    border-radius: 30px;
+    background-color: #fa4040;
+    cursor: pointer;
+    position: relative;
+}
+
+.keys-check input:checked{
+    background-color: #21af21;
+}
+
+.keys-check input::before{
+    content: "";
+    height: 20px;
+    width: 20px;
+    background-color: lightgray;
+    position: absolute;
+    border-radius: inherit;
+    top: 50%;
+    left: 0.3rem;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+}
+
+.keys-check input:checked::before{
+    left: 2.1rem;
+    background-color: lightgray;
+}
+
+.piano-keys{
+    display: flex;
+    margin-top: 40px;
+}
+
+.piano-keys span{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.13rem;
+}
+
+.key{
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.piano-keys .key.hide span{
+    display: none;
+}
+
+.white{
+    width: 63px;
+    height: 230px;
+    background: whitesmoke;
+    border-radius: 8px;
+    border: 1px solid;
+}
+
+.white:active{
+    box-shadow: inset -5px 5px 20px rgba(0, 0, 0, 0.2);
+
+}
+
+.black{
+    width: 44px;
+    height: 140px;
+    background: black;
+    border-radius: 0 0 5px 5px;
+    z-index: 2;
+    margin: 0 -22px 0 -22px;
+    color: white;
+}
+
+.black:active{
+    box-shadow: inset -5px 5px 10px rgba(255, 255, 255, 0.1);
+}
