@@ -8,7 +8,7 @@ Concluído!!! 🎹🎵
 ## Demonstração da aplicação
 [clique aqui para jogar](https://renatabc.github.io/emoji-memory-game/)
 
-![image](https://github.com/Renatabc/emoji-memory-game/assets/93830634/bdebe00d-ea39-4bc6-b2df-991e19530663)
+![image](https://github.com/Renatabc/piano-simulator/assets/93830634/1595d267-49ec-4410-8946-1dd2b2406265)
 
 ## Pré-requisitos
 - Para **baixar o repositório**, recomenda-se o aplicativo [GIT](https://git-scm.com/downloads).
